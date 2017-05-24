@@ -1,16 +1,16 @@
-# Gantry 5 'Header Image' Particle for Grav
+# Gantry 5 'Header Image' Atom for Grav
 
-Particles are small, modular blocks with preset scripting that enable you to add elements to your Grav Gantry 5 pages.
+Atoms are small, modular blocks with preset scripting that enable you to add elements to your Grav Gantry 5 pages.
 
-## Installing the Particle
+## Installing the Atom
 
 1. Open the folder of your active Gantry theme. For example, if you are using the Hydrogen theme open the folder `/user/themes/g5_helium`.
 2. If a `custom` folder already exists open it, otherwise create it.
 3. If a `particles` folder already exists within the `custom` folder open it, otherwise create it.
 4. Upload `headerimage.html.twig` and `headerimage.yaml` files into the `/custom/particles` folder. For example, if you are using the Helium theme copy the two particle files into `/user/themes/g5_helium/custom/particles`.
 
-## Using the Particle
-1. Add the Particle to your theme's 'Atoms' area on the 'Page Settings' panel.
+## Using the Atom
+1. Add the Atom to your theme's 'Atoms' area on the 'Page Settings' panel.
 2. Create a folder called 'headerimage' at root level of your site or within any page folder
 3. Copy the image you want to be displayed for your headerimage
 4. Create a file called `default.md` and include the following with that file:
