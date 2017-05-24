@@ -1,7 +1,7 @@
 {% extends '@nucleus/partials/particle.html.twig' %}
 
 {% block particle %}
-{% pageblock top %}
+{% pageblock body_top %}
   {% if grav.page.route == '/' %}
     {% set page_route = grav.config.system.home.alias %}
   {% else %}
