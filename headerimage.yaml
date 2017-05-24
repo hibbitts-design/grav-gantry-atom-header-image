@@ -1,0 +1,11 @@
+name: Header Image
+description: Displays the image contained in the 'headerimage' folder.
+type: atom
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable Header Image particle.
+      default: true
