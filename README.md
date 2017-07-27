@@ -6,8 +6,8 @@ Atoms are small, modular blocks with preset scripting that enable you to add ele
 
 Before installing and using the Atom, it is suggested you temporarily enable Gantry's [`Development Mode`](http://docs.gantry.org/gantry5/configure/extras)
 
-1. Open the active theme folder in your `user/data/gantry5/themes/` your Gantry installation. For example, if you are using the Hydrogen theme open the folder `user/data/gantry5/themes/g5_hydrogen`.
-2. If a `particles` folder already exists within the `custom` folder open it, otherwise create it.
+1. Open the folder for your active theme in the `user/data/gantry5/themes/` folder of your Gantry installation. For example, if you are using the Hydrogen theme open the folder `user/data/gantry5/themes/g5_hydrogen`.
+2. If a `particles` folder already exists within the theme folder open it, otherwise create it.
 4. Upload `headerimage.html.twig` and `headerimage.yaml` files into the `particles` folder. For example, if you are using the Hydrogen theme copy the two particle files into `user/data/gantry5/themes/g5_hydrogen/particles`.
 
 ## Using the Atom
