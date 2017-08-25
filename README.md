@@ -25,7 +25,7 @@ routable: false
 ```
 
 ## Required CSS
-Add the following CSS in your theme's custom.css file:
+Add the following CSS to your Gantry theme's `custom.css` file. For example, if you are using the Helium theme the `custom.css` file should be located at `user/data/gantry5/themes/g5_helium/scss/custom.css`.
 
 ```
 .myheader {
@@ -64,3 +64,5 @@ Add the following CSS in your theme's custom.css file:
   }
 }
 ```
+
+Note: you may need to clear Gantry's cache to update the display of the Atom
